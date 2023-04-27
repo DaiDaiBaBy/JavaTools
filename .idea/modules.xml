@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaTools.iml" filepath="$PROJECT_DIR$/.idea/JavaTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-easyExcel/springboot-easyExcel.iml" filepath="$PROJECT_DIR$/springboot-easyExcel/springboot-easyExcel.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-fileUpDown/springboot-fileUpDown.iml" filepath="$PROJECT_DIR$/springboot-fileUpDown/springboot-fileUpDown.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" filepath="$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" />
     </modules>
