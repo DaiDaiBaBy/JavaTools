@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- 导入axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        <!--
+        hutool方式-->
+        function downloadFileByOpen(fileName) {
+            window.open("http://localhost:8080/file/download/hutool?fileName=" + fileName);
+        }
+
+        <!--    仿 hutool方式-->
+        function downloadFileByOpenAndSelf(fileName) {
+            window.open("http://localhost:8080/file/download/hutool/self?fileName=" + fileName);
+        }
+
+        <!--     添加Ajax和返回值方式实现文件下载的测试-->
+        //前端采用原生的ajax实现的，responseType最好设置为blob
+        function downloadFileByAjax(fileName) {
+            let xhr = new XMLHttpRequest;
+            xhr.open("get", "/file/download/return?fileName=" + fileName, true);
+            //发送请求
+            xhr.send();
+            xhr.responseType = "blob";
+            xhr.onload = function () {
+                if (this.status === 200) {
+                    let blob = new Blob([this.response]);
+                    let elink = document.createElement('a');
+                    elink.download = fileName;
+                    elink.style.display = 'none';
+                    elink.href = URL.createObjectURL(blob);
+                    document.body.appendChild(elink);
+                    elink.click();
+                    // 释放URL 对象
+                    URL.revokeObjectURL(elink.href);
+                    document.body.removeChild(elink);
+                }
+            }
+        }
+
+        function downloadFileJQueryAjax(fileName) {
+            $.ajax({
+                type: "get",
+                url: "/file/download/return",
+                data: {
+                    fileName
+                },
+                xhrFields: {responseType: "blob"},
+                success: function (response) {
+                    let blob = new Blob([response]);
+                    let elink = document.createElement('a');
+                    elink.download = fileName;
+                    elink.style.display = 'none';
+                    elink.href = URL.createObjectURL(blob);
+                    document.body.appendChild(elink);
+                    elink.click();
+                    // 释放URL 对象
+                    URL.revokeObjectURL(elink.href);
+                    document.body.removeChild(elink);
+                }
+            });
+        }
+
+        <!--      前端使用axios，后端继续使用返回值方式，实现文件下载功能-->
+
+        function downloadFileByAxios(fileName) {
+            axios({
+                url: "/file/download/return",
+                method: "get",
+                responseType: "blob",
+                params: {
+                    fileName
+                }
+            }).then(function (res) {
+                console.log(res);
+                let blob = new Blob([res.data]);
+                let elink = document.createElement('a');
+                elink.download = fileName;
+                elink.style.display = 'none';
+                elink.href = URL.createObjectURL(blob);
+                document.body.appendChild(elink);
+                elink.click();
+                // 释放URL 对象
+                URL.revokeObjectURL(elink.href);
+                document.body.removeChild(elink);
+            })
+        }
+    </script>
+</head>
+
+<body>
+<h3>后端hutool + 前端open方式</h3>
+<div th:if="${fileNames} == null">没有文件可下载</div>
+<ul>
+    <li th:each="fileName : ${fileNames}" th:text="${fileName} + '  下载'"
+        th:onclick="downloadFileByOpen([[${fileName}]])">
+    </li>
+</ul>
+<br>
+<br>
+
+<h3>后端模仿hutool + 前端open方式</h3>
+<div th:if="${fileNames} == null">没有文件可下载</div>
+<ul>
+    <li th:each="fileName : ${fileNames}" th:text="${fileName} + '  下载'"
+        th:onclick="downloadFileByOpenAndSelf([[${fileName}]])">
+    </li>
+</ul>
+<br>
+<br>
+
+<h3>后端返回值 + 前端Ajax方式</h3>
+<div th:if="${fileNames} == null">没有文件可下载</div>
+<ul>
+    <li th:each="fileName : ${fileNames}" th:text="${fileName} + '  下载'"
+        th:onclick="downloadFileByAjax([[${fileName}]])">
+    </li>
+</ul>
+<br>
+<br>
+
+<h3>后端返回值 + 前端JQuery-Ajax方式</h3>
+<div th:if="${fileNames} == null">没有文件可下载</div>
+<ul>
+    <li th:each="fileName : ${fileNames}" th:text="${fileName} + '  下载'"
+        th:onclick="downloadFileJQueryAjax([[${fileName}]])">
+    </li>
+</ul>
+<br>
+<br>
+
+<h3>后端返回值 + 前端axios方式</h3>
+<div th:if="${fileNames} == null">没有文件可下载</div>
+<ul>
+    <li th:each="fileName : ${fileNames}" th:text="${fileName} + '  下载'"
+        th:onclick="downloadFileByAxios([[${fileName}]])">
+    </li>
+</ul>
+
+</body>
+</html>
