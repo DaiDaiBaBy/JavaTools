@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhoufu.springbooteasypoi.mapper.OriginaldemandMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.zhoufu.springbooteasypoi.entity.Originaldemand">
+        <id column="id" property="id" />
+        <result column="org_name" property="orgName" />
+        <result column="post_name" property="postName" />
+        <result column="level" property="level" />
+        <result column="recruitment_quantity" property="recruitmentQuantity" />
+        <result column="work_place" property="workPlace" />
+        <result column="remaining_demand_num" property="remainingDemandNum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, org_name, post_name, level, recruitment_quantity, work_place, remaining_demand_num
+    </sql>
+
+</mapper>

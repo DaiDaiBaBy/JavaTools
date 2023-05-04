@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/springboot-fileUpDown/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-excel/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-easyExcel/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-easypoi/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatisCodeGenerator/pom.xml" />
       </list>
     </option>
   </component>

@@ -10,20 +10,26 @@
         <module name="springboot-swagger2" />
         <module name="springboot-easyExcel" />
         <module name="springboot-fileUpDown" />
+        <module name="springboot-easypoi" />
+        <module name="springboot-mybatisCodeGenerator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-easyExcel" target="1.8" />
+      <module name="springboot-easypoi" target="1.8" />
       <module name="springboot-excel" target="1.8" />
       <module name="springboot-fileUpDown" target="1.8" />
+      <module name="springboot-mybatisCodeGenerator" target="1.8" />
       <module name="springboot-swagger2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-easyExcel" options="-parameters" />
+      <module name="springboot-easypoi" options="-parameters" />
       <module name="springboot-excel" options="-parameters" />
       <module name="springboot-fileUpDown" options="-parameters" />
+      <module name="springboot-mybatisCodeGenerator" options="-parameters" />
       <module name="springboot-swagger2" options="-parameters" />
     </option>
   </component>

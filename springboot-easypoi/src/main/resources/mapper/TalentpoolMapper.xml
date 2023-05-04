@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhoufu.springbooteasypoi.mapper.TalentpoolMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.zhoufu.springbooteasypoi.entity.Talentpool">
+        <id column="id" property="id" />
+        <result column="talent_id" property="talentId" />
+        <result column="name" property="name" />
+        <result column="gender" property="gender" />
+        <result column="email" property="email" />
+        <result column="phone_number" property="phoneNumber" />
+        <result column="graduation_time" property="graduationTime" />
+        <result column="education" property="education" />
+        <result column="school" property="school" />
+        <result column="major" property="major" />
+        <result column="file_name" property="fileName" />
+        <result column="org_code" property="orgCode" />
+        <result column="org_name" property="orgName" />
+        <result column="post_code" property="postCode" />
+        <result column="post_name" property="postName" />
+        <result column="work_place" property="workPlace" />
+        <result column="first_evaluation" property="firstEvaluation" />
+        <result column="interview_result" property="interviewResult" />
+        <result column="remark" property="remark" />
+        <result column="error_msg" property="errorMsg" />
+        <result column="rowNum" property="rownum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, talent_id, name, gender, email, phone_number, graduation_time, education, school, major, file_name, org_code, org_name, post_code, post_name, work_place, first_evaluation, interview_result, remark, error_msg, rowNum
+    </sql>
+
+</mapper>
