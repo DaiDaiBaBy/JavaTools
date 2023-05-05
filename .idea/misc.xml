@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/springboot-easyExcel/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-easypoi/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatisCodeGenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-result/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-consumer/pom.xml" />
       </list>
     </option>
   </component>

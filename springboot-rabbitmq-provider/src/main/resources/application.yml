@@ -1,0 +1,23 @@
+server:
+  port: 8021
+spring:
+  #给项目来个名字
+  application:
+    name: rabbitmq-provider
+  #配置rabbitMq 服务器
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: root
+    password: root
+    #虚拟host 可以不设置,使用server默认host
+    ## ps：里面的虚拟host配置项不是必须的，在rabbitmq服务上创建了自己的虚拟host，则配置
+    ## 不创建，就不用加这个配置项（默认写 ：virtual-host: /）
+    ## 创建的话，直接在安装完rabbitMq后，输入http://ip:15672/, 在后台管理界面进行创建
+    virtual-host: ZFHost
+    # 确认消息已发送到交换机(Exchange)
+    # 消息的回调，其实就是消息确认（生产者推送消息成功，消费者接收消息成功）
+    #publisher-confirms: true
+    publisher-confirm-type: correlated
+    #确认消息已发送到队列(Queue)
+    publisher-returns: true
