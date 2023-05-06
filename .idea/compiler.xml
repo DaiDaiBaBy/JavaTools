@@ -17,6 +17,7 @@
         <module name="springboot-result" />
         <module name="springboot-easyExcel" />
         <module name="springboot-easypoi" />
+        <module name="springboot-oss" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="springboot-fileUpDown" target="1.8" />
       <module name="springboot-mybatisCodeGenerator" target="1.8" />
       <module name="springboot-optional" target="1.8" />
+      <module name="springboot-oss" target="1.8" />
       <module name="springboot-rabbitmq-consumer" target="1.8" />
       <module name="springboot-rabbitmq-provider" target="1.8" />
       <module name="springboot-result" target="1.8" />
@@ -42,6 +44,7 @@
       <module name="springboot-fileUpDown" options="-parameters" />
       <module name="springboot-mybatisCodeGenerator" options="-parameters" />
       <module name="springboot-optional" options="-parameters" />
+      <module name="springboot-oss" options="-parameters" />
       <module name="springboot-rabbitmq-consumer" options="-parameters" />
       <module name="springboot-rabbitmq-provider" options="-parameters" />
       <module name="springboot-result" options="-parameters" />
