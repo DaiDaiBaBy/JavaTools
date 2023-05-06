@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/springboot-result/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-provider/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dbDocCreate/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-optional/pom.xml" />
       </list>
     </option>
   </component>

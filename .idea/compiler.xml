@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-rabbitmq-provider" />
         <module name="springboot-rabbitmq-consumer" />
+        <module name="springboot-dbDocCreate" />
+        <module name="springboot-optional" />
         <module name="springboot-fileUpDown" />
         <module name="springboot-mybatisCodeGenerator" />
         <module name="springboot-swagger2" />
@@ -18,11 +20,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-dbDocCreate" target="1.8" />
       <module name="springboot-easyExcel" target="1.8" />
       <module name="springboot-easypoi" target="1.8" />
       <module name="springboot-excel" target="1.8" />
       <module name="springboot-fileUpDown" target="1.8" />
       <module name="springboot-mybatisCodeGenerator" target="1.8" />
+      <module name="springboot-optional" target="1.8" />
       <module name="springboot-rabbitmq-consumer" target="1.8" />
       <module name="springboot-rabbitmq-provider" target="1.8" />
       <module name="springboot-result" target="1.8" />
@@ -31,11 +35,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-dbDocCreate" options="-parameters" />
       <module name="springboot-easyExcel" options="-parameters" />
       <module name="springboot-easypoi" options="-parameters" />
       <module name="springboot-excel" options="-parameters" />
       <module name="springboot-fileUpDown" options="-parameters" />
       <module name="springboot-mybatisCodeGenerator" options="-parameters" />
+      <module name="springboot-optional" options="-parameters" />
       <module name="springboot-rabbitmq-consumer" options="-parameters" />
       <module name="springboot-rabbitmq-provider" options="-parameters" />
       <module name="springboot-result" options="-parameters" />
