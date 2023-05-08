@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-rabbitmq-provider" />
+        <module name="springboot-logback" />
         <module name="springboot-rabbitmq-consumer" />
         <module name="springboot-dbDocCreate" />
         <module name="springboot-optional" />
@@ -26,6 +27,7 @@
       <module name="springboot-easypoi" target="1.8" />
       <module name="springboot-excel" target="1.8" />
       <module name="springboot-fileUpDown" target="1.8" />
+      <module name="springboot-logback" target="1.8" />
       <module name="springboot-mybatisCodeGenerator" target="1.8" />
       <module name="springboot-optional" target="1.8" />
       <module name="springboot-oss" target="1.8" />
@@ -42,6 +44,7 @@
       <module name="springboot-easypoi" options="-parameters" />
       <module name="springboot-excel" options="-parameters" />
       <module name="springboot-fileUpDown" options="-parameters" />
+      <module name="springboot-logback" options="-parameters" />
       <module name="springboot-mybatisCodeGenerator" options="-parameters" />
       <module name="springboot-optional" options="-parameters" />
       <module name="springboot-oss" options="-parameters" />

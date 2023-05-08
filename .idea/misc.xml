@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/springboot-dbDocCreate/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-optional/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-logback/pom.xml" />
       </list>
     </option>
   </component>

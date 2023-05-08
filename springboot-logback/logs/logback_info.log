@@ -1,0 +1,70 @@
+2023-05-08 10:37:12.189 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - Starting SpringbootLogbackApplication using Java 1.8.0_91 on 小米粥 with PID 32456 (D:\workspace\develop\JavaTools\springboot-logback\target\classes started by 15153 in D:\workspace\develop\JavaTools)
+2023-05-08 10:37:12.191 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - The following 1 profile is active: "dev"
+2023-05-08 10:37:12.235 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 10:37:12.235 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 10:37:13.024 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2023-05-08 10:37:13.031 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2023-05-08 10:37:13.032 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-08 10:37:13.032 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-08 10:37:13.075 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 10:37:13.076 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 840 ms
+2023-05-08 10:37:13.324 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-05-08 10:37:13.334 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2023-05-08 10:37:13.347 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2023-05-08 10:37:13.355 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - Started SpringbootLogbackApplication in 1.707 seconds (JVM running for 2.717)
+2023-05-08 10:37:26.549 [http-nio-8086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 10:37:26.549 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-08 10:37:26.550 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-08 10:37:26.567 [http-nio-8086-exec-1] INFO  c.z.springbootlogback.controller.TestController - info日志收集测试
+2023-05-08 10:38:42.399 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - Starting SpringbootLogbackApplication using Java 1.8.0_91 on 小米粥 with PID 8468 (D:\workspace\develop\JavaTools\springboot-logback\target\classes started by 15153 in D:\workspace\develop\JavaTools)
+2023-05-08 10:38:42.400 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - The following 1 profile is active: "dev"
+2023-05-08 10:38:42.474 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 10:38:42.475 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 10:38:43.231 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2023-05-08 10:38:43.238 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2023-05-08 10:38:43.239 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-08 10:38:43.239 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-08 10:38:43.284 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 10:38:43.285 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 809 ms
+2023-05-08 10:38:43.559 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-05-08 10:38:43.571 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2023-05-08 10:38:43.584 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2023-05-08 10:38:43.592 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - Started SpringbootLogbackApplication in 1.804 seconds (JVM running for 2.879)
+2023-05-08 10:38:51.284 [http-nio-8086-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 10:38:51.284 [http-nio-8086-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-08 10:38:51.285 [http-nio-8086-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-05-08 10:38:51.305 [http-nio-8086-exec-6] INFO  c.z.springbootlogback.controller.TestController - info日志收集测试
+2023-05-08 10:40:12.160 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - Starting SpringbootLogbackApplication using Java 1.8.0_91 on 小米粥 with PID 18484 (D:\workspace\develop\JavaTools\springboot-logback\target\classes started by 15153 in D:\workspace\develop\JavaTools)
+2023-05-08 10:40:12.162 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - The following 1 profile is active: "dev"
+2023-05-08 10:40:12.207 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 10:40:12.208 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 10:40:12.968 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2023-05-08 10:40:12.974 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2023-05-08 10:40:12.975 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-08 10:40:12.975 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-08 10:40:13.016 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 10:40:13.016 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
+2023-05-08 10:40:13.345 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-05-08 10:40:13.357 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2023-05-08 10:40:13.371 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2023-05-08 10:40:13.381 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - Started SpringbootLogbackApplication in 1.684 seconds (JVM running for 2.335)
+2023-05-08 10:40:26.405 [http-nio-8086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 10:40:26.406 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-08 10:40:26.407 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-08 10:40:52.260 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - Starting SpringbootLogbackApplication using Java 1.8.0_91 on 小米粥 with PID 27084 (D:\workspace\develop\JavaTools\springboot-logback\target\classes started by 15153 in D:\workspace\develop\JavaTools)
+2023-05-08 10:40:52.261 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - The following 1 profile is active: "dev"
+2023-05-08 10:40:52.308 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 10:40:52.308 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 10:40:53.089 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2023-05-08 10:40:53.096 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2023-05-08 10:40:53.097 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-08 10:40:53.097 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-08 10:40:53.139 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 10:40:53.140 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 831 ms
+2023-05-08 10:40:53.393 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-05-08 10:40:53.403 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2023-05-08 10:40:53.417 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2023-05-08 10:40:53.425 [restartedMain] INFO  c.z.springbootlogback.SpringbootLogbackApplication - Started SpringbootLogbackApplication in 1.74 seconds (JVM running for 2.534)
+2023-05-08 10:41:25.503 [http-nio-8086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 10:41:25.503 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-08 10:41:25.504 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
