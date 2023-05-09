@@ -7,17 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-kafka" />
+        <module name="springboot-dbDocCreate" />
+        <module name="springboot-optional" />
+        <module name="springboot-mybatisCodeGenerator" />
+        <module name="springboot-easypoi" />
         <module name="springboot-rabbitmq-provider" />
         <module name="springboot-logback" />
         <module name="springboot-rabbitmq-consumer" />
-        <module name="springboot-dbDocCreate" />
-        <module name="springboot-optional" />
         <module name="springboot-fileUpDown" />
-        <module name="springboot-mybatisCodeGenerator" />
         <module name="springboot-swagger2" />
         <module name="springboot-result" />
         <module name="springboot-easyExcel" />
-        <module name="springboot-easypoi" />
         <module name="springboot-oss" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="springboot-easypoi" target="1.8" />
       <module name="springboot-excel" target="1.8" />
       <module name="springboot-fileUpDown" target="1.8" />
+      <module name="springboot-kafka" target="1.8" />
       <module name="springboot-logback" target="1.8" />
       <module name="springboot-mybatisCodeGenerator" target="1.8" />
       <module name="springboot-optional" target="1.8" />
@@ -44,6 +46,7 @@
       <module name="springboot-easypoi" options="-parameters" />
       <module name="springboot-excel" options="-parameters" />
       <module name="springboot-fileUpDown" options="-parameters" />
+      <module name="springboot-kafka" options="-parameters" />
       <module name="springboot-logback" options="-parameters" />
       <module name="springboot-mybatisCodeGenerator" options="-parameters" />
       <module name="springboot-optional" options="-parameters" />

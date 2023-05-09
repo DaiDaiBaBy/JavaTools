@@ -6,6 +6,9 @@
     <file url="file://$PROJECT_DIR$/springboot-easyExcel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-easypoi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-fileUpDown/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-kafka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-kafka/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-logback/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-logback/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatisCodeGenerator/src/main/java" charset="UTF-8" />

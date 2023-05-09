@@ -1,0 +1,130 @@
+# 配置端口
+server:
+  port: 8080
+
+spring:
+  #----------------druid数据源配置-----------------------
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
+      username: root
+      password: '!QAZ1qaz'
+      initialSize: 10
+      minIdle: 10
+      maxActive: 30
+      # 配置获取连接等待超时的时间
+      maxWait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      timeBetweenEvictionRunsMillis: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      # 打开PSCache，并且指定每个连接上PSCache的大小
+      poolPreparedStatements: true
+      # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+      #filters: stat,wall,log4j
+      # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      # 合并多个DruidDataSource的监控数据
+      useGlobalDataSourceStat: true
+
+  #redis配置(host和端口改成你自己的)
+  redis:
+    host: 10.24.19.237
+    port: 6379
+    # 密码，没有就不配置
+    password: 123456
+    # 连接超时时间（毫秒）
+    timeout: 36000
+    # Redis默认情况下有16个分片，这里配置具体使用的分片，默认是0
+    database: 0
+    lettuce:
+      pool:
+        # 连接池最大连接数（使用负值表示没有限制）默认 8
+        max-active: 8
+        # 连接池最大阻塞等待时间（使用负值表示没有限制） 默认 -1
+        max-wait: -1ms
+        # 连接池中的最大空闲连接 默认 8
+        max-idle: 8
+        # 连接池中的最小空闲连接 默认 0
+        min-idle: 0
+
+  #kafka配置
+  kafka:
+    #这里改为你的kafka服务器ip和端口号
+    bootstrap-servers: 10.24.19.237:9092
+    #=============== producer  =======================
+    producer:
+      #如果该值大于零时，表示启用重试失败的发送次数
+      retries: 0
+      #每当多个记录被发送到同一分区时，生产者将尝试将记录一起批量处理为更少的请求，默认值为16384(单位字节)
+      batch-size: 16384
+      #生产者可用于缓冲等待发送到服务器的记录的内存总字节数，默认值为3355443
+      buffer-memory: 33554432
+      #key的Serializer类，实现类实现了接口org.apache.kafka.common.serialization.Serializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      #value的Serializer类，实现类实现了接口org.apache.kafka.common.serialization.Serializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    #=============== consumer  =======================
+    consumer:
+      #用于标识此使用者所属的使用者组的唯一字符串
+      group-id: test-consumer-group
+      #当Kafka中没有初始偏移量或者服务器上不再存在当前偏移量时该怎么办，默认值为latest，表示自动将偏移重置为最新的偏移量
+      #可选的值为latest, earliest, none
+      auto-offset-reset: earliest
+      #消费者的偏移量将在后台定期提交，默认值为true
+      enable-auto-commit: true
+      #如果'enable-auto-commit'为true，则消费者偏移自动提交给Kafka的频率（以毫秒为单位），默认值为5000。
+      auto-commit-interval: 100
+      #密钥的反序列化器类，实现类实现了接口org.apache.kafka.common.serialization.Deserializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      #值的反序列化器类，实现类实现了接口org.apache.kafka.common.serialization.Deserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+#----------------mybatis plus配置-----------------------
+mybatis-plus:
+  # xml扫描，多个目录用逗号或者分号分隔(告诉 Mapper 所对应的 XML 文件位置)
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    # 是否开启自动驼峰命名规则映射:从数据库列名到Java属性驼峰命名的类似映射
+    map-underscore-to-camel-case: true
+    # 如果查询结果中包含空值的列，则 MyBatis 在映射的时候，不会映射这个字段
+    call-setters-on-nulls: true
+    # 这个配置会将执行的sql打印出来，在开发或测试的时候可以用
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  # 实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.example.study.model.entity
+  global-config:
+    db-config:
+      #主键类型 AUTO:"数据库ID自增" INPUT:"用户输入ID",ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+      id-type: auto
+      #字段策略 IGNORED:"忽略判断"  NOT_NULL:"非 NULL 判断")  NOT_EMPTY:"非空判断"
+      field-strategy: NOT_EMPTY
+      #数据库类型
+      db-type: MYSQL
+      # 逻辑删除配置
+      # 删除前
+      logic-not-delete-value: 1
+      # 删除后
+      logic-delete-value: 0
+      # 数据库表名的前缀
+      table-prefix: t_
+
+
+#----------------swagger配置-----------------------
+swagger:
+  #生产环境改为false
+  enable: true
+#解决Swagger2 异常 NumberFormatException:For input string:""
+logging:
+  level:
+    io:
+      swagger:
+        models:
+          parameters:
+            AbstractSerializableParameter: ERROR
