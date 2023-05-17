@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaTools.iml" filepath="$PROJECT_DIR$/.idea/JavaTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dbDocCreate/springboot-dbDocCreate.iml" filepath="$PROJECT_DIR$/springboot-dbDocCreate/springboot-dbDocCreate.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-easyExcel/springboot-easyExcel.iml" filepath="$PROJECT_DIR$/springboot-easyExcel/springboot-easyExcel.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-easypoi/springboot-easypoi.iml" filepath="$PROJECT_DIR$/springboot-easypoi/springboot-easypoi.iml" />

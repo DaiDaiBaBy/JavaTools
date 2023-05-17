@@ -13,3 +13,6 @@
 2023-05-09 14:31:25.207 [main] INFO  c.z.s.SpringbootLogbackApplicationTests - Starting SpringbootLogbackApplicationTests using Java 1.8.0_91 on 小米粥 with PID 33640 (started by 15153 in D:\workspace\develop\JavaTools\springboot-logback)
 2023-05-09 14:31:25.208 [main] INFO  c.z.s.SpringbootLogbackApplicationTests - The following 1 profile is active: "dev"
 2023-05-09 14:31:26.684 [main] INFO  c.z.s.SpringbootLogbackApplicationTests - Started SpringbootLogbackApplicationTests in 2.043 seconds (JVM running for 3.128)
+2023-05-09 16:38:33.082 [main] INFO  c.z.s.SpringbootLogbackApplicationTests - Starting SpringbootLogbackApplicationTests using Java 1.8.0_91 on 小米粥 with PID 33516 (started by 15153 in D:\workspace\develop\JavaTools\springboot-logback)
+2023-05-09 16:38:33.084 [main] INFO  c.z.s.SpringbootLogbackApplicationTests - The following 1 profile is active: "dev"
+2023-05-09 16:38:34.661 [main] INFO  c.z.s.SpringbootLogbackApplicationTests - Started SpringbootLogbackApplicationTests in 2.184 seconds (JVM running for 3.575)
