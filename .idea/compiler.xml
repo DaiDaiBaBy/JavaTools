@@ -20,18 +20,21 @@
         <module name="springboot-swagger2" />
         <module name="springboot-result" />
         <module name="springboot-easyExcel" />
+        <module name="springboot-dynamicTask" />
         <module name="springboot-oss" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-dbDocCreate" target="1.8" />
+      <module name="springboot-dynamicTask" target="1.8" />
       <module name="springboot-easyExcel" target="1.8" />
       <module name="springboot-easypoi" target="1.8" />
       <module name="springboot-excel" target="1.8" />
       <module name="springboot-fileUpDown" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
       <module name="springboot-logback" target="1.8" />
+      <module name="springboot-multiSource" target="1.8" />
       <module name="springboot-mybatisCodeGenerator" target="1.8" />
       <module name="springboot-optional" target="1.8" />
       <module name="springboot-oss" target="1.8" />
@@ -45,12 +48,14 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-dbDocCreate" options="-parameters" />
+      <module name="springboot-dynamicTask" options="-parameters" />
       <module name="springboot-easyExcel" options="-parameters" />
       <module name="springboot-easypoi" options="-parameters" />
       <module name="springboot-excel" options="-parameters" />
       <module name="springboot-fileUpDown" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />
       <module name="springboot-logback" options="-parameters" />
+      <module name="springboot-multiSource" options="-parameters" />
       <module name="springboot-mybatisCodeGenerator" options="-parameters" />
       <module name="springboot-optional" options="-parameters" />
       <module name="springboot-oss" options="-parameters" />
