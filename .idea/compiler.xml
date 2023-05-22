@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-kafka" />
+        <module name="springboot-canal" />
         <module name="springboot-dbDocCreate" />
         <module name="springboot-optional" />
         <module name="springboot-mybatisCodeGenerator" />
@@ -26,6 +27,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-aop" target="1.8" />
+      <module name="springboot-canal" target="1.8" />
       <module name="springboot-dbDocCreate" target="1.8" />
       <module name="springboot-dynamicTask" target="1.8" />
       <module name="springboot-easyExcel" target="1.8" />
@@ -47,6 +49,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-aop" options="-parameters" />
+      <module name="springboot-canal" options="-parameters" />
       <module name="springboot-dbDocCreate" options="-parameters" />
       <module name="springboot-dynamicTask" options="-parameters" />
       <module name="springboot-easyExcel" options="-parameters" />
