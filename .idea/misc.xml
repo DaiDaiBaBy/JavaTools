@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/springboot-aop/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-dynamicTask/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-canal/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-qiNiuCloud/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-shiro/pom.xml" />
       </list>
     </option>
   </component>

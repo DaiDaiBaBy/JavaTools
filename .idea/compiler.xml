@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-kafka" />
+        <module name="springboot-qiNiuCloud" />
         <module name="springboot-canal" />
         <module name="springboot-dbDocCreate" />
         <module name="springboot-optional" />
         <module name="springboot-mybatisCodeGenerator" />
         <module name="springboot-aop" />
         <module name="springboot-easypoi" />
+        <module name="springboot-shiro" />
         <module name="springboot-rabbitmq-provider" />
         <module name="springboot-logback" />
         <module name="springboot-rabbitmq-consumer" />
@@ -40,9 +42,11 @@
       <module name="springboot-mybatisCodeGenerator" target="1.8" />
       <module name="springboot-optional" target="1.8" />
       <module name="springboot-oss" target="1.8" />
+      <module name="springboot-qiNiuCloud" target="1.8" />
       <module name="springboot-rabbitmq-consumer" target="1.8" />
       <module name="springboot-rabbitmq-provider" target="1.8" />
       <module name="springboot-result" target="1.8" />
+      <module name="springboot-shiro" target="1.8" />
       <module name="springboot-swagger2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -62,9 +66,11 @@
       <module name="springboot-mybatisCodeGenerator" options="-parameters" />
       <module name="springboot-optional" options="-parameters" />
       <module name="springboot-oss" options="-parameters" />
+      <module name="springboot-qiNiuCloud" options="-parameters" />
       <module name="springboot-rabbitmq-consumer" options="-parameters" />
       <module name="springboot-rabbitmq-provider" options="-parameters" />
       <module name="springboot-result" options="-parameters" />
+      <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-swagger2" options="-parameters" />
     </option>
   </component>
