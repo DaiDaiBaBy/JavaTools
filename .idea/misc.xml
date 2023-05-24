@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/springboot-canal/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-qiNiuCloud/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-security-oauth2/pom.xml" />
       </list>
     </option>
   </component>

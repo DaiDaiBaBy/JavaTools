@@ -22,6 +22,7 @@
         <module name="springboot-fileUpDown" />
         <module name="springboot-swagger2" />
         <module name="springboot-result" />
+        <module name="springboot-security-oauth2" />
         <module name="springboot-easyExcel" />
         <module name="springboot-dynamicTask" />
         <module name="springboot-oss" />
@@ -46,6 +47,7 @@
       <module name="springboot-rabbitmq-consumer" target="1.8" />
       <module name="springboot-rabbitmq-provider" target="1.8" />
       <module name="springboot-result" target="1.8" />
+      <module name="springboot-security-oauth2" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-swagger2" target="1.8" />
     </bytecodeTargetLevel>
@@ -70,6 +72,7 @@
       <module name="springboot-rabbitmq-consumer" options="-parameters" />
       <module name="springboot-rabbitmq-provider" options="-parameters" />
       <module name="springboot-result" options="-parameters" />
+      <module name="springboot-security-oauth2" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-swagger2" options="-parameters" />
     </option>
