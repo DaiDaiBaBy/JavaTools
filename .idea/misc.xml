@@ -23,6 +23,12 @@
         <option value="$PROJECT_DIR$/springboot-qiNiuCloud/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shiro/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-sso/xxl-sso-core/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-sso/xxl-sso-samples/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-token-sample-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-web-sample-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-sso/xxl-sso-server/pom.xml" />
       </list>
     </option>
   </component>

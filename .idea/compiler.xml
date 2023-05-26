@@ -14,8 +14,10 @@
         <module name="springboot-optional" />
         <module name="springboot-mybatisCodeGenerator" />
         <module name="springboot-aop" />
+        <module name="xxl-sso-token-sample-springboot" />
         <module name="springboot-easypoi" />
         <module name="springboot-shiro" />
+        <module name="xxl-sso-web-sample-springboot" />
         <module name="springboot-rabbitmq-provider" />
         <module name="springboot-logback" />
         <module name="springboot-rabbitmq-consumer" />
@@ -25,6 +27,8 @@
         <module name="springboot-security-oauth2" />
         <module name="springboot-easyExcel" />
         <module name="springboot-dynamicTask" />
+        <module name="xxl-sso-core" />
+        <module name="xxl-sso-server" />
         <module name="springboot-oss" />
       </profile>
     </annotationProcessing>
@@ -50,6 +54,12 @@
       <module name="springboot-security-oauth2" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-swagger2" target="1.8" />
+      <module name="xxl-sso" target="1.8" />
+      <module name="xxl-sso-core" target="1.8" />
+      <module name="xxl-sso-samples" target="1.8" />
+      <module name="xxl-sso-server" target="1.8" />
+      <module name="xxl-sso-token-sample-springboot" target="1.8" />
+      <module name="xxl-sso-web-sample-springboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

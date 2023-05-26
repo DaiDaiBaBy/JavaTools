@@ -22,6 +22,12 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" filepath="$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" filepath="$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso-core/xxl-sso-core.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso-core/xxl-sso-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-samples.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso-server/xxl-sso-server.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso-server/xxl-sso-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-token-sample-springboot/xxl-sso-token-sample-springboot.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-token-sample-springboot/xxl-sso-token-sample-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-web-sample-springboot/xxl-sso-web-sample-springboot.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-web-sample-springboot/xxl-sso-web-sample-springboot.iml" />
     </modules>
   </component>
 </project>
