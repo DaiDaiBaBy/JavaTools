@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-provider/springboot-rabbitmq-provider.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-provider/springboot-rabbitmq-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-result/springboot-result.iml" filepath="$PROJECT_DIR$/springboot-result/springboot-result.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" filepath="$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shardingsphere/springboot-shardingsphere.iml" filepath="$PROJECT_DIR$/springboot-shardingsphere/springboot-shardingsphere.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" filepath="$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso.iml" />
