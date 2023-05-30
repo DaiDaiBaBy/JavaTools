@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-web-sample-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/xxl-sso/xxl-sso-server/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shardingsphere/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-datax/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,44 @@
+{
+  "job": {
+    "setting": {
+      "speed": {
+        "channel":2
+      }
+    },
+    "content": [
+      {
+        "reader": {
+          "name": "mysqlreader",
+          "parameter": {
+            "username": "root",
+            "password": "!QAZ1qaz",
+            "splitPk": "id",
+            "column": ["id","name","address"],
+            "connection": [
+              {
+                "jdbcUrl": ["jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false"],
+                "table": ["source_table"]
+              }
+            ]
+          }
+        },
+        "writer": {
+          "name": "mysqlwriter",
+          "parameter": {
+            "username": "root",
+            "password": "!QAZ1qaz",
+            "column": ["id","name","address"],
+            "connection": [
+              {
+                "table": [
+                  "target_table"
+                ],
+                "jdbcUrl": "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

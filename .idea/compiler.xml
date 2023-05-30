@@ -7,35 +7,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-mybatisCodeGenerator" />
+        <module name="springboot-shiro" />
+        <module name="springboot-logback" />
+        <module name="springboot-fileUpDown" />
+        <module name="springboot-datax" />
+        <module name="springboot-result" />
+        <module name="springboot-security-oauth2" />
+        <module name="springboot-easyExcel" />
+        <module name="springboot-dynamicTask" />
+        <module name="xxl-sso-server" />
+        <module name="springboot-oss" />
         <module name="springboot-kafka" />
         <module name="springboot-qiNiuCloud" />
         <module name="springboot-canal" />
         <module name="springboot-dbDocCreate" />
         <module name="springboot-optional" />
-        <module name="springboot-mybatisCodeGenerator" />
         <module name="springboot-aop" />
         <module name="xxl-sso-token-sample-springboot" />
         <module name="springboot-shardingsphere" />
         <module name="springboot-easypoi" />
-        <module name="springboot-shiro" />
         <module name="xxl-sso-web-sample-springboot" />
         <module name="springboot-rabbitmq-provider" />
-        <module name="springboot-logback" />
         <module name="springboot-rabbitmq-consumer" />
-        <module name="springboot-fileUpDown" />
         <module name="springboot-swagger2" />
-        <module name="springboot-result" />
-        <module name="springboot-security-oauth2" />
-        <module name="springboot-easyExcel" />
-        <module name="springboot-dynamicTask" />
         <module name="xxl-sso-core" />
-        <module name="xxl-sso-server" />
-        <module name="springboot-oss" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-canal" target="1.8" />
+      <module name="springboot-datax" target="1.8" />
       <module name="springboot-dbDocCreate" target="1.8" />
       <module name="springboot-dynamicTask" target="1.8" />
       <module name="springboot-easyExcel" target="1.8" />
@@ -68,6 +70,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-canal" options="-parameters" />
+      <module name="springboot-datax" options="-parameters" />
       <module name="springboot-dbDocCreate" options="-parameters" />
       <module name="springboot-dynamicTask" options="-parameters" />
       <module name="springboot-easyExcel" options="-parameters" />
