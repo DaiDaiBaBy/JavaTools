@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/xxl-sso/xxl-sso-server/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shardingsphere/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-datax/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-async-threadPool-batchList/pom.xml" />
       </list>
     </option>
   </component>
