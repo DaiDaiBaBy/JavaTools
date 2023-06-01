@@ -1,0 +1,19 @@
+server:
+  port: 8027
+
+spring:
+  servlet:
+    multipart:
+      # 设置上传文件的大小
+      max-file-size: 10MB
+      #设置 整个请求的大小
+      max-request-size: 15MB
+mail:
+  #邮箱客户端地址
+  host: smtp.qq.com
+  port: 25
+  username: 1515349947@qq.com
+  password: soljzjxhwwgnjaib
+  formName: 周大福
+  to: 1515349947@qq.com
+

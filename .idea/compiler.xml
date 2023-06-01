@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-email-jsUeditor" />
         <module name="springboot-mybatisCodeGenerator" />
         <module name="springboot-shiro" />
         <module name="springboot-logback" />
@@ -50,6 +51,7 @@
       <module name="springboot-dynamicTask" target="1.8" />
       <module name="springboot-easyExcel" target="1.8" />
       <module name="springboot-easypoi" target="1.8" />
+      <module name="springboot-email-jsUeditor" target="1.8" />
       <module name="springboot-excel" target="1.8" />
       <module name="springboot-fileUpDown" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
@@ -89,6 +91,7 @@
       <module name="springboot-dynamicTask" options="-parameters" />
       <module name="springboot-easyExcel" options="-parameters" />
       <module name="springboot-easypoi" options="-parameters" />
+      <module name="springboot-email-jsUeditor" options="-parameters" />
       <module name="springboot-excel" options="-parameters" />
       <module name="springboot-fileUpDown" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />

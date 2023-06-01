@@ -36,6 +36,7 @@
         <option value="$PROJECT_DIR$/springboot-distributedLock/springboot-redisLock/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-distributedLock/springboot-zookeeperLock/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-security-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-email-jsUeditor/pom.xml" />
       </list>
     </option>
   </component>
