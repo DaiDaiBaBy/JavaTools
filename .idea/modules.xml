@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-provider/springboot-rabbitmq-provider.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-provider/springboot-rabbitmq-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-distributedLock/springboot-redisLock/springboot-redisLock.iml" filepath="$PROJECT_DIR$/springboot-distributedLock/springboot-redisLock/springboot-redisLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-result/springboot-result.iml" filepath="$PROJECT_DIR$/springboot-result/springboot-result.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-security-jwt/springboot-security-jwt.iml" filepath="$PROJECT_DIR$/springboot-security-jwt/springboot-security-jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" filepath="$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shardingsphere/springboot-shardingsphere.iml" filepath="$PROJECT_DIR$/springboot-shardingsphere/springboot-shardingsphere.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />

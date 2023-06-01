@@ -33,6 +33,7 @@
         <module name="xxl-sso-web-sample-springboot" />
         <module name="springboot-rabbitmq-provider" />
         <module name="springboot-rabbitmq-consumer" />
+        <module name="springboot-security-jwt" />
         <module name="springboot-swagger2" />
         <module name="springboot-redisLock" />
         <module name="xxl-sso-core" />
@@ -62,6 +63,7 @@
       <module name="springboot-rabbitmq-provider" target="1.8" />
       <module name="springboot-redisLock" target="1.8" />
       <module name="springboot-result" target="1.8" />
+      <module name="springboot-security-jwt" target="1.8" />
       <module name="springboot-security-oauth2" target="1.8" />
       <module name="springboot-shardingsphere" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
@@ -100,6 +102,7 @@
       <module name="springboot-rabbitmq-provider" options="-parameters" />
       <module name="springboot-redisLock" options="-parameters" />
       <module name="springboot-result" options="-parameters" />
+      <module name="springboot-security-jwt" options="-parameters" />
       <module name="springboot-security-oauth2" options="-parameters" />
       <module name="springboot-shardingsphere" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
