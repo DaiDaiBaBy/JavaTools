@@ -6,8 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async-threadPool-batchList/springboot-async-threadPool-batchList.iml" filepath="$PROJECT_DIR$/springboot-async-threadPool-batchList/springboot-async-threadPool-batchList.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-canal/springboot-canal.iml" filepath="$PROJECT_DIR$/springboot-canal/springboot-canal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-distributedLock/springboot-databaseLock/springboot-databaseLock.iml" filepath="$PROJECT_DIR$/springboot-distributedLock/springboot-databaseLock/springboot-databaseLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-datax/springboot-datax.iml" filepath="$PROJECT_DIR$/springboot-datax/springboot-datax.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dbDocCreate/springboot-dbDocCreate.iml" filepath="$PROJECT_DIR$/springboot-dbDocCreate/springboot-dbDocCreate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-distributedLock/springboot-distributedLock.iml" filepath="$PROJECT_DIR$/springboot-distributedLock/springboot-distributedLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dynamicTask/springboot-dynamicTask.iml" filepath="$PROJECT_DIR$/springboot-dynamicTask/springboot-dynamicTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-easyExcel/springboot-easyExcel.iml" filepath="$PROJECT_DIR$/springboot-easyExcel/springboot-easyExcel.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-easypoi/springboot-easypoi.iml" filepath="$PROJECT_DIR$/springboot-easypoi/springboot-easypoi.iml" />
@@ -20,11 +22,13 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-qiNiuCloud/springboot-qiNiuCloud.iml" filepath="$PROJECT_DIR$/springboot-qiNiuCloud/springboot-qiNiuCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-consumer/springboot-rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-consumer/springboot-rabbitmq-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-provider/springboot-rabbitmq-provider.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-provider/springboot-rabbitmq-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-distributedLock/springboot-redisLock/springboot-redisLock.iml" filepath="$PROJECT_DIR$/springboot-distributedLock/springboot-redisLock/springboot-redisLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-result/springboot-result.iml" filepath="$PROJECT_DIR$/springboot-result/springboot-result.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" filepath="$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shardingsphere/springboot-shardingsphere.iml" filepath="$PROJECT_DIR$/springboot-shardingsphere/springboot-shardingsphere.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" filepath="$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-distributedLock/springboot-zookeeperLock/springboot-zookeeperLock.iml" filepath="$PROJECT_DIR$/springboot-distributedLock/springboot-zookeeperLock/springboot-zookeeperLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso-core/xxl-sso-core.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso-core/xxl-sso-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-samples.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-samples.iml" />

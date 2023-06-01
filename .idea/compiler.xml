@@ -11,12 +11,14 @@
         <module name="springboot-shiro" />
         <module name="springboot-logback" />
         <module name="springboot-fileUpDown" />
+        <module name="springboot-databaseLock" />
         <module name="springboot-datax" />
         <module name="springboot-result" />
         <module name="springboot-security-oauth2" />
         <module name="springboot-easyExcel" />
         <module name="springboot-dynamicTask" />
         <module name="xxl-sso-server" />
+        <module name="springboot-zookeeperLock" />
         <module name="springboot-oss" />
         <module name="springboot-async-threadPool-batchList" />
         <module name="springboot-kafka" />
@@ -32,6 +34,7 @@
         <module name="springboot-rabbitmq-provider" />
         <module name="springboot-rabbitmq-consumer" />
         <module name="springboot-swagger2" />
+        <module name="springboot-redisLock" />
         <module name="xxl-sso-core" />
       </profile>
     </annotationProcessing>
@@ -39,8 +42,10 @@
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-async-threadPool-batchList" target="1.8" />
       <module name="springboot-canal" target="1.8" />
+      <module name="springboot-databaseLock" target="1.8" />
       <module name="springboot-datax" target="1.8" />
       <module name="springboot-dbDocCreate" target="1.8" />
+      <module name="springboot-distributedLock" target="1.8" />
       <module name="springboot-dynamicTask" target="1.8" />
       <module name="springboot-easyExcel" target="1.8" />
       <module name="springboot-easypoi" target="1.8" />
@@ -55,11 +60,13 @@
       <module name="springboot-qiNiuCloud" target="1.8" />
       <module name="springboot-rabbitmq-consumer" target="1.8" />
       <module name="springboot-rabbitmq-provider" target="1.8" />
+      <module name="springboot-redisLock" target="1.8" />
       <module name="springboot-result" target="1.8" />
       <module name="springboot-security-oauth2" target="1.8" />
       <module name="springboot-shardingsphere" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-swagger2" target="1.8" />
+      <module name="springboot-zookeeperLock" target="1.8" />
       <module name="xxl-sso" target="1.8" />
       <module name="xxl-sso-core" target="1.8" />
       <module name="xxl-sso-samples" target="1.8" />
@@ -73,8 +80,10 @@
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-async-threadPool-batchList" options="-parameters" />
       <module name="springboot-canal" options="-parameters" />
+      <module name="springboot-databaseLock" options="-parameters" />
       <module name="springboot-datax" options="-parameters" />
       <module name="springboot-dbDocCreate" options="-parameters" />
+      <module name="springboot-distributedLock" options="" />
       <module name="springboot-dynamicTask" options="-parameters" />
       <module name="springboot-easyExcel" options="-parameters" />
       <module name="springboot-easypoi" options="-parameters" />
@@ -89,11 +98,13 @@
       <module name="springboot-qiNiuCloud" options="-parameters" />
       <module name="springboot-rabbitmq-consumer" options="-parameters" />
       <module name="springboot-rabbitmq-provider" options="-parameters" />
+      <module name="springboot-redisLock" options="-parameters" />
       <module name="springboot-result" options="-parameters" />
       <module name="springboot-security-oauth2" options="-parameters" />
       <module name="springboot-shardingsphere" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-swagger2" options="-parameters" />
+      <module name="springboot-zookeeperLock" options="-parameters" />
     </option>
   </component>
 </project>
