@@ -6,9 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async-threadPool-batchList/springboot-async-threadPool-batchList.iml" filepath="$PROJECT_DIR$/springboot-async-threadPool-batchList/springboot-async-threadPool-batchList.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-canal/springboot-canal.iml" filepath="$PROJECT_DIR$/springboot-canal/springboot-canal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-csv/springboot-csv.iml" filepath="$PROJECT_DIR$/springboot-csv/springboot-csv.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-distributedLock/springboot-databaseLock/springboot-databaseLock.iml" filepath="$PROJECT_DIR$/springboot-distributedLock/springboot-databaseLock/springboot-databaseLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-datax/springboot-datax.iml" filepath="$PROJECT_DIR$/springboot-datax/springboot-datax.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dbDocCreate/springboot-dbDocCreate.iml" filepath="$PROJECT_DIR$/springboot-dbDocCreate/springboot-dbDocCreate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-distributed-xxxJob/springboot-distributed-xxxJob.iml" filepath="$PROJECT_DIR$/springboot-distributed-xxxJob/springboot-distributed-xxxJob.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-distributedLock/springboot-distributedLock.iml" filepath="$PROJECT_DIR$/springboot-distributedLock/springboot-distributedLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dynamicTask/springboot-dynamicTask.iml" filepath="$PROJECT_DIR$/springboot-dynamicTask/springboot-dynamicTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-easyExcel/springboot-easyExcel.iml" filepath="$PROJECT_DIR$/springboot-easyExcel/springboot-easyExcel.iml" />
@@ -29,8 +31,15 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" filepath="$PROJECT_DIR$/springboot-security-oauth2/springboot-security-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shardingsphere/springboot-shardingsphere.iml" filepath="$PROJECT_DIR$/springboot-shardingsphere/springboot-shardingsphere.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-ok/springboot-shiro-ok.iml" filepath="$PROJECT_DIR$/springboot-shiro-ok/springboot-shiro-ok.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" filepath="$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-distributedLock/springboot-zookeeperLock/springboot-zookeeperLock.iml" filepath="$PROJECT_DIR$/springboot-distributedLock/springboot-zookeeperLock/springboot-zookeeperLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job-admin/xxl-job-admin.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job-admin/xxl-job-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job-core/xxl-job-core.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job-core/xxl-job-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/xxl-job-executor-sample-frameless.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/xxl-job-executor-sample-frameless.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/xxl-job-executor-sample-springboot.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/xxl-job-executor-sample-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-samples.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job-executor-samples/xxl-job-executor-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso-core/xxl-sso-core.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso-core/xxl-sso-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-samples.iml" filepath="$PROJECT_DIR$/xxl-sso/xxl-sso-samples/xxl-sso-samples.iml" />

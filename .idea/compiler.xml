@@ -7,9 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="xxl-job-core" />
         <module name="springboot-email-jsUeditor" />
         <module name="springboot-mybatisCodeGenerator" />
         <module name="springboot-shiro" />
+        <module name="springboot-shiro-ok" />
         <module name="springboot-logback" />
         <module name="springboot-fileUpDown" />
         <module name="springboot-databaseLock" />
@@ -20,13 +22,18 @@
         <module name="springboot-dynamicTask" />
         <module name="xxl-sso-server" />
         <module name="springboot-zookeeperLock" />
+        <module name="xxl-job-admin" />
+        <module name="xxl-job-executor-sample-springboot" />
         <module name="springboot-oss" />
         <module name="springboot-async-threadPool-batchList" />
         <module name="springboot-kafka" />
         <module name="springboot-qiNiuCloud" />
         <module name="springboot-canal" />
+        <module name="springboot-distributed-xxxJob" />
         <module name="springboot-dbDocCreate" />
         <module name="springboot-optional" />
+        <module name="springboot-csv" />
+        <module name="xxl-job-executor-sample-frameless" />
         <module name="springboot-aop" />
         <module name="xxl-sso-token-sample-springboot" />
         <module name="springboot-shardingsphere" />
@@ -44,9 +51,11 @@
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-async-threadPool-batchList" target="1.8" />
       <module name="springboot-canal" target="1.8" />
+      <module name="springboot-csv" target="1.8" />
       <module name="springboot-databaseLock" target="1.8" />
       <module name="springboot-datax" target="1.8" />
       <module name="springboot-dbDocCreate" target="1.8" />
+      <module name="springboot-distributed-xxxJob" target="1.8" />
       <module name="springboot-distributedLock" target="1.8" />
       <module name="springboot-dynamicTask" target="1.8" />
       <module name="springboot-easyExcel" target="1.8" />
@@ -69,8 +78,15 @@
       <module name="springboot-security-oauth2" target="1.8" />
       <module name="springboot-shardingsphere" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
+      <module name="springboot-shiro-ok" target="1.8" />
       <module name="springboot-swagger2" target="1.8" />
       <module name="springboot-zookeeperLock" target="1.8" />
+      <module name="xxl-job" target="1.8" />
+      <module name="xxl-job-admin" target="1.8" />
+      <module name="xxl-job-core" target="1.8" />
+      <module name="xxl-job-executor-sample-frameless" target="1.8" />
+      <module name="xxl-job-executor-sample-springboot" target="1.8" />
+      <module name="xxl-job-executor-samples" target="1.8" />
       <module name="xxl-sso" target="1.8" />
       <module name="xxl-sso-core" target="1.8" />
       <module name="xxl-sso-samples" target="1.8" />
@@ -84,9 +100,11 @@
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-async-threadPool-batchList" options="-parameters" />
       <module name="springboot-canal" options="-parameters" />
+      <module name="springboot-csv" options="-parameters" />
       <module name="springboot-databaseLock" options="-parameters" />
       <module name="springboot-datax" options="-parameters" />
       <module name="springboot-dbDocCreate" options="-parameters" />
+      <module name="springboot-distributed-xxxJob" options="-parameters" />
       <module name="springboot-distributedLock" options="" />
       <module name="springboot-dynamicTask" options="-parameters" />
       <module name="springboot-easyExcel" options="-parameters" />
