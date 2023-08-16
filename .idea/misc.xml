@@ -41,6 +41,7 @@
         <option value="$PROJECT_DIR$/xxl-job/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shiro-ok/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-csv/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mockito/pom.xml" />
       </list>
     </option>
   </component>

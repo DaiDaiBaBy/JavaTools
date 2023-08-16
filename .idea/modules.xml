@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-fileUpDown/springboot-fileUpDown.iml" filepath="$PROJECT_DIR$/springboot-fileUpDown/springboot-fileUpDown.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" filepath="$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-logback/springboot-logback.iml" filepath="$PROJECT_DIR$/springboot-logback/springboot-logback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mockito/springboot-mockito.iml" filepath="$PROJECT_DIR$/springboot-mockito/springboot-mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatisCodeGenerator/springboot-mybatisCodeGenerator.iml" filepath="$PROJECT_DIR$/springboot-mybatisCodeGenerator/springboot-mybatisCodeGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-optional/springboot-optional.iml" filepath="$PROJECT_DIR$/springboot-optional/springboot-optional.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-oss/springboot-oss.iml" filepath="$PROJECT_DIR$/springboot-oss/springboot-oss.iml" />

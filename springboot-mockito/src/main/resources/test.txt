@@ -1,0 +1,2 @@
+# 测试接口
+curl -X POST http://localhost:8080/orders -d '{"goodsId":"1"}' -H "Content-Type:application/json"
