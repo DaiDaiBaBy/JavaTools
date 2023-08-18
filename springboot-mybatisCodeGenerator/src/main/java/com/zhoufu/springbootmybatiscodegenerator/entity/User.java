@@ -6,8 +6,8 @@ import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+
+import lombok.*;
 
 /**
  * <p>
@@ -16,8 +16,11 @@ import lombok.EqualsAndHashCode;
  * @since 2023-04-28
  */
 @Data
+@Builder
 @EqualsAndHashCode(callSuper = false)
 @TableName("user")
+@AllArgsConstructor
+@NoArgsConstructor
 public class User extends Model<User> {
 
     private static final long serialVersionUID = 1L;
